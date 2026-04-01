@@ -1,0 +1,233 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Campus Life | Siraj Mia Memorial Model School">
+  <!-- Hero -->
+  <section class="relative bg-gradient-to-br from-primary-500 via-primary-600 to-primary-800 text-white overflow-hidden">
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute top-0 right-0 w-96 h-96 bg-white rounded-full -translate-y-1/2 translate-x-1/3"></div>
+      <div class="absolute bottom-0 left-0 w-72 h-72 bg-white rounded-full translate-y-1/3 -translate-x-1/4"></div>
+    </div>
+    <div class="max-w-7xl mx-auto px-4 py-20 md:py-28 relative">
+      <div class="max-w-3xl">
+        <p class="text-blue-200 font-medium mb-3 tracking-wide uppercase text-sm">Experience Learning</p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-heading font-bold leading-tight mb-6">
+          Life at SMMM School
+        </h1>
+        <p class="text-lg md:text-xl text-blue-100 leading-relaxed mb-8 max-w-2xl">
+          Beyond academics, our campus offers a vibrant community where students develop holistically through modern facilities, shared achievements, and memorable experiences.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#facilities" class="bg-white text-primary-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">Explore Our Facilities</a>
+          <a href="/admissions" class="border-2 border-white/40 text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors">Apply Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Campus Facilities -->
+  <section id="facilities" class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">Campus Facilities</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">Our state-of-the-art facilities provide an ideal learning environment for students.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Science Lab -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <div class="h-48 overflow-hidden">
+            <img src="/images/gallery/chemistry-lab.jpg" alt="Science Laboratory" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">Science Lab</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Fully equipped science laboratory with modern apparatus for physics, chemistry, and biology experiments. Hands-on learning experiences supported by trained instructors.</p>
+          </div>
+        </div>
+
+        <!-- IT Lab -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <div class="h-48 overflow-hidden">
+            <img src="/images/home/technology.jpg" alt="IT Laboratory" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">IT Lab</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Advanced computer laboratory with high-speed internet, updated software, and modern workstations. Students learn programming, design, and digital literacy in a conducive environment.</p>
+          </div>
+        </div>
+
+        <!-- Campus Garden -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <div class="h-48 overflow-hidden">
+            <img src="/images/home/campus.jpg" alt="Campus Garden" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">Campus Garden</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Serene and spacious campus garden serving as a recreational space. Green environment promotes mental well-being and provides outdoor learning opportunities for environmental studies.</p>
+          </div>
+        </div>
+
+        <!-- Classrooms -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <div class="h-48 overflow-hidden">
+            <img src="/images/gallery/playgroup.jpg" alt="Classrooms" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">Classrooms</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Well-lit, spacious classrooms with modern teaching aids including projectors and interactive boards. Comfortable seating and ventilation ensure optimal learning conditions.</p>
+          </div>
+        </div>
+
+        <!-- Library -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <div class="bg-primary-100 h-48 flex items-center justify-center text-primary-500/30">
+            <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 6.253v13m0-13C6.5 6.253 2 10.998 2 16.5s4.5 10.247 10 10.247m0-13c5.5 0 10 4.745 10 10.247s-4.5 10.247-10 10.247m0-13V6m0 13H7m5 0h5"/></svg>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">Library</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Extensive collection of books, reference materials, and digital resources. Quiet reading areas and computer access support independent research and lifelong learning habits.</p>
+          </div>
+        </div>
+
+        <!-- Sports Facilities -->
+        <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow overflow-hidden">
+          <div class="h-48 overflow-hidden">
+            <img src="/images/gallery/campus-view.jpg" alt="Sports Facilities and Campus Grounds" class="w-full h-full object-cover" />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">Sports Facilities</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Well-maintained sports grounds with facilities for cricket, football, badminton, and athletics. Physical education programs foster teamwork, discipline, and healthy lifestyles.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Timeline -->
+  <section class="py-16 md:py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">Our Achievements</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">Milestones that showcase our commitment to excellence and community service.</p>
+      </div>
+
+      <div class="space-y-8 max-w-3xl mx-auto">
+
+        <!-- TEDx 2024 -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0">
+            <div class="w-20 h-20 bg-primary-500 rounded-xl flex items-center justify-center">
+              <span class="text-white font-heading font-bold text-lg">2024</span>
+            </div>
+          </div>
+          <div class="flex-1 bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">TEDx Event - First Bangla Medium School</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              SMMM School made history as the first Bangla medium school in Bangladesh to host a TEDx event. TEDxSMMMSchool brought together thought leaders and innovators to share ideas worth spreading.
+            </p>
+          </div>
+        </div>
+
+        <!-- SSC Pass Rate -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0">
+            <div class="w-20 h-20 bg-accent-500 rounded-xl flex items-center justify-center">
+              <span class="text-white font-heading font-bold text-lg">2023</span>
+            </div>
+          </div>
+          <div class="flex-1 bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">100% SSC Pass Rate</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              All our SSC students achieved a 100% pass rate in 2023, with many securing distinctions and top positions. This success reflects our dedicated teaching and comprehensive academic program.
+            </p>
+          </div>
+        </div>
+
+        <!-- Flood Relief -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0">
+            <div class="w-20 h-20 bg-primary-600 rounded-xl flex items-center justify-center">
+              <span class="text-white font-heading font-bold text-lg">2022</span>
+            </div>
+          </div>
+          <div class="flex-1 bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">Sylhet Flood Relief - 1,200 Families Supported</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              When Sylhet was devastated by floods, our school community stepped up with relief efforts. We distributed food, water, and essentials to over 1,200 families, embodying our commitment to social responsibility.
+            </p>
+          </div>
+        </div>
+
+        <!-- Japanese Ambassador -->
+        <div class="flex gap-6 items-start">
+          <div class="flex-shrink-0">
+            <div class="w-20 h-20 bg-primary-700 rounded-xl flex items-center justify-center">
+              <span class="text-white font-heading font-bold text-lg">2021</span>
+            </div>
+          </div>
+          <div class="flex-1 bg-white rounded-xl shadow-md p-6">
+            <h3 class="text-xl font-heading font-bold text-gray-900 mb-2">Japanese Ambassador Visit</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">
+              The Japanese Ambassador visited SMMM School, acknowledging our academic excellence and extracurricular achievements. The visit strengthened our international connections and cultural exchange.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">Photo Gallery</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">Moments from our vibrant campus life and activities.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/inauguration-president.jpg" alt="Founder with Dr. Anwara Begum, wife of President Iajuddin Ahmed" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/bncc-inauguration.jpg" alt="Inauguration of BNCC" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/bncc-army-platoon.jpg" alt="BNCC Army Platoon" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/japanese-ambassador.jpg" alt="Japanese Ambassador visiting during annual sports program" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/general-assembly.jpg" alt="General Assembly" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/playgroup.jpg" alt="Playgroup students in class" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/students-exam.jpg" alt="Students giving an exam" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/chemistry-lab.jpg" alt="Chemistry Lab" class="w-full h-full object-cover" />
+        </div>
+        <div class="aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <img src="/images/gallery/campus-view.jpg" alt="Campus View" class="w-full h-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 md:py-20 bg-primary-500 text-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-heading font-bold mb-4">Experience SMMM School</h2>
+      <p class="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">Join our vibrant community and be part of a learning journey that goes beyond the classroom.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/admissions" class="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">Apply Now</a>
+        <a href="/contact" class="border-2 border-white/40 px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition-colors">Contact Us</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
