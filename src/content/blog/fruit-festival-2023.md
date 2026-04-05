@@ -3,7 +3,7 @@ title: "Fruit Festival 2023"
 date: "2023-06-18"
 excerpt: "A celebration of nature's bountiful gifts with vibrant colors and fruits at our annual Fruit Festival."
 author: "Md. Rafy Hossain"
-image: "/images/blog/fruit-festival-2023.png"
+image: "/images/blog/fruit-festival-2023.jpg"
 ---
 
 SMMM School celebrated its annual Fruit Festival with great enthusiasm and participation. The vibrant event showcased the diversity of fruits available in our region, featuring stalls with mangoes, watermelons, papayas, bananas, and various tropical fruits. Students explored different varieties, learned about nutritional benefits, and enjoyed fresh fruit samples while celebrating nature's abundance.
